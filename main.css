@@ -1,0 +1,61 @@
+/* main css  */
+
+/* Bài 3:  */
+		.Main
+		{
+			border: solid 1px #359ee8;
+			border-radius: 10px;
+			margin-top: 10px;
+            text-align: center;
+		}
+		.Top
+		{
+			background-color: #359ee8;
+			border-top-left-radius: 8px;
+			border-top-right-radius: 8px;
+			padding: 5px 0;
+			color: white;
+		}
+		.Bot
+		{
+			padding: 5px 0;
+		}
+		.ButtonFUN
+		{
+			padding: 15px 25px;
+  			outline: none !important;
+  			color: #fff;
+  			background-color: #359ee8;
+  			border: none;
+  			border-radius: 15px;
+  			box-shadow: 0 9px #999;
+  			margin: 10px 0;
+		}
+		.ButtonFUN:hover
+		{
+			background-color: #2578b3 !important;
+		}
+		.ButtonFUN:active
+		{
+			background-color: #359ee8;
+  			box-shadow: 0 5px #666;
+  			transform: translateY(4px);
+		}
+		.Button
+		{
+			margin: 10px 0;
+		}
+
+ /* bài 4 */
+ .list {
+    padding: 10px;
+    margin: 5px;
+}
+#btnXuatKetQua {
+    border-radius: 5px;
+    border-color: white;
+    color: #fff;
+    width: 80px;
+    height: 40px;
+    background-color:  #007bff;
+}

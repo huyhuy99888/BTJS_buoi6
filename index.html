@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <!-- Bài 1  -->
+    <div style="padding-top: 30px;">
+        <h3 class="text-center">Bài 1: Tìm số nguyên dương nhỏ nhất thỏa mãn điều kiện</h3>
+    </div>
+    <div class="stagement">
+        <h4 class="text-center">1 + 2 + ... + n>10000</h4>
+    </div>
+
+    <p style="width:80%; margin: auto;">
+        <button class="btn btn-primary" id="btnTinh" type="button" data-toggle="collapse" data-target="#collapseExample"
+            aria-expanded="false" aria-controls="collapseExample">
+            Kết Quả
+        </button>
+    </p>
+    <div style="width:80%; margin: auto;" class="collapse" id="collapseExample">
+        <div class="card card-body" id="ketQua1">
+        </div>
+    </div>
+    <hr>
+
+    <!-- Bài 2  -->
+    <div>
+        <h3 class="text-center">Bài 2: Nhập 2 số và tính tổng với công thức</h3>
+    </div>
+    <div class="stagement">
+        <h4 class="text-center">S(n)=x+x<sup>2</sup>+x<sup>3</sup>+...+x<sup>n</sup></h4>
+    </div>
+    <div class="form-group m-auto py-3" style="width:80%;">
+        <label for="">Nhập số thứ 1</label>
+        <input type="text" class="form-control" name="" id="dataInNo2__num1" aria-describedby="helpId" placeholder="">
+        <label for="">Nhập số thứ 2</label>
+        <input type="text" class="form-control" name="" id="dataInNo2__num2" aria-describedby="helpId" placeholder="">
+    </div>
+    <p style="width:80%; margin: auto;">
+        <button class="btn btn-primary" id="btnKetQua" type="button" data-toggle="collapse"
+            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            Kết Quả
+        </button>
+    </p>
+    <div style="width:80%; margin: auto;" class="collapse" id="collapseExample">
+        <div class="card card-body" id="ketQua2"> Không có kết quả
+        </div>
+    </div>
+    </div>
+    <hr>
+
+    <!-- Bài 3 -->
+    <div>
+        <h3 class="text-center">Bài 3: Viết chương trình tính giai thừa 1*2*...n</h3>
+    </div>
+    <div class="container">
+        <div class="Main">
+            <div class="Top">
+                <h4>
+                    Tính giai thừa
+                </h4>
+            </div>
+            <div class="Bot">
+                <div class="Text">
+                    <span id="N">N</span>!
+                    <br>
+                    <span id="End"></span>
+                </div>
+                <div class="Button">
+                    <button class="ButtonFUN" type="button" onclick="EnterN()">Nhập N</button>
+                    <button class="ButtonFUN" type="button" style="background-color: green" onclick="Done()">Tính
+                        N!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <!-- Bài 4  -->
+    <div>
+        <h3 class="text-center">Bài 4: Viết chương trình khi click vào button sẽ in ra 10 thẻ div</h3>
+    </div>
+    <div style="width: 80%; margin: auto; padding-bottom: 50px;">
+        <button id="btnXuatKetQua" onclick="change_backgroud()">Tạo Div</button>
+        <div id="ketQuaHienRa">
+            <div class="list">Div lẻ 1</div>
+            <div class="list">Div chẵn 2</div>
+            <div class="list">Div lẻ 3</div>
+            <div class="list">Div chẵn 4</div>
+            <div class="list">Div lẻ 5</div>
+            <div class="list">Div chẵn 6</div>
+            <div class="list">Div lẻ 7</div>
+            <div class="list">Div chẵn 8</div>
+            <div class="list">Div lẻ 9</div>
+            <div class="list">Div chẵn 10</div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
